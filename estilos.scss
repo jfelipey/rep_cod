@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* headers y banners principales index y secundarios*/
+.navbar-toggler{
+
+    background-color:#0E3560;
+
+}
+        .navbar-brand {
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+
+            &img {
+
+                height: 50px;
+                width: auto;
+                display: flex;
+    
+            }
+
+        }
+
+        .nav-link{
+
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            padding-left: 10px;
+            color: #333333;
+            text-decoration: none;
+            font-size: 16px;
+
+            &:hover{
+
+                text-decoration: underline;
+                color: #0E3560;
+                font-weight: 700;
+            }
+        }
+
+
+        .banerPrincipal{
+
+            width: 100%;
+            height: 500px;
+            background-image: url(imagenes/img-header-index.png);
+            background-size:cover;
+        }
+
+        .textosBanner{
+            display: flex;
+            height: 430px;
+            width: 100%;
+            align-items:center;
+            justify-content: flex-end;
+            flex-direction: column;
+            text-align: center;
+
+            h1{
+
+                font-family: 'Lato', sans-serif;
+                font-weight: 900;
+                color: #ffffff;
+                font-size: 80px;  
+            }
+
+            h2{
+
+                font-family: 'Lato', sans-serif;
+                font-weight: 900;
+                color: #ffffff;
+                font-size: 30px;
+    
+            }
+        }
+
+        .banerPrincipal-2{
+            align-items: center;
+            display: flex;
+            width: 100%;
+            height:150px;
+            background-image: url(imagenes/img-header-second-pages.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .textosBanner-2{
+            display: flex;
+            margin-left: 50px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 30px;
+        }
+
+        main{
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            margin-bottom: 50px;
+            background-image: url(imagenes/img-body-top.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        } 
+/* Contenido Index*/
+
+    .cont-ind{
+        margin-top: 20%;
+
+        .imagen-contenedor-index{
+            border-radius: 16px;
+            transition: all 0.3s;
+            filter: grayscale(100%);
+
+            &:hover{
+                border-radius: 16px;
+                transform: scale(1.05);
+                filter: grayscale(0);
+            }
+        }
+
+        .contenidoTextosIndex-2{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            padding-left: 40px;
+            
+        }
+        .titulos-info-index{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #0E3560;
+            font-size: 40px;
+
+        }
+
+        .parrafos-info-index{
+
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            color:#333333;
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        .botones-info-index{
+            margin-top:20px ;
+            margin-bottom:20px ;
+
+            a{
+                border-radius: 50px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                color: #0E3560;
+                font-size: 16px;
+                text-transform:uppercase;
+                padding: 15px 40px;
+                text-decoration: none;
+                border: 2px solid #0E3560;
+                text-align: center;
+                margin-top: 15px;
+                transition: all 0.3s;
+                
+                &:hover{
+                    background-color: #0E3560;
+                    border: 2px solid #0E3560;
+                    color: #ffffff;
+        
+                }
+            }
+
+        }
+    }
+       
+
+/* contenido serivicios*/
+.cont-serv{
+    margin-top: 10%;
+
+    .imgContServ{
+            
+        height: 500px;
+        width: auto;
+        border-radius: 16px;
+        margin-right: 20px;
+    }
+
+
+    .textos-servicios{
+        strong{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color:#333333;
+            font-size: 25px;
+        }
+
+        h3{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #0E3560;
+            font-size: 40px;
+        }
+
+        
+        p{
+
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            color:#333333;
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+    
+    }
+}
+
+
+        .beneficios{
+
+            background-color: #AAAAAA;
+            margin-top: -50px;
+
+            h3{
+
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                color:#ffffff;
+                font-size: 40px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+            }
+            
+        }
+
+
+        .contBeneficios{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #ffffff;
+            margin-bottom: 30px;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 4%;
+            padding-right: 4%;
+            border-radius: 30px;
+            align-items: center;
+            transition: all 0.3s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        
+            p{
+
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                color:#0E3560;
+                font-size: 20px;
+                margin-top: 15px;
+    
+            }
+
+            .iconoBenef{
+                margin-right: 30px;
+                width: 18%;
+                height: 18%;
+                    
+                }
+
+        }
+        
+        
+/* Destacados */
+
+        .cont-des{
+            margin-top: 20%;
+        }
+
+        .testimonios{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h3{
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                color: #0E3560;
+                font-size: 40px;
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .cont-testimonios{
+                background-color: #AAAAAA;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                padding-left: 5%;
+                padding-right: 5%;
+                border-radius: 15px;
+                margin-bottom: 50px;
+    
+                p{
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400;
+                    color:#ffffff;
+                    font-size: 20px;
+                    text-align: center;
+                    padding-top: 30px;
+                }
+            }
+        }
+
+
+/* contacto */
+
+        .contContac{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h3{
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                color: #0E3560;
+                font-size: 40px;
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 30px;
+                
+            }
+
+            h4{
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                color: #0E3560;
+                font-size: 30px;
+                text-align: center;
+                margin-bottom: 10px;
+                
+            }
+
+            h5{
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                color: #0E3560;
+                font-size: 15px;
+                text-align: center;
+                margin-bottom: 40px;
+                
+            }
+
+            a{
+                display: block;
+                border-radius: 100px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                background-color: #0E3560;
+                border: 2px solid #0E3560;
+                color: #ffffff;
+                font-size: 40px;
+                padding: 30px;
+                text-decoration: none;
+                border: 2px solid #0E3560;
+                text-align: center;
+                margin-bottom: 50px;
+                transition: all 0.3s;
+            }
+
+            a:hover{
+                background-color:#ffffff;
+                border: 2px solid #0E3560;
+                color: #0E3560;
+    
+            }
+        }
+
+        .titComFun{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #0E3560;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .contComFun{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 3px solid #AAAAAA;
+            border-radius: 10px;
+            width: 300px;
+            height:350px;
+            margin: 10px;
+            transition: all 0.3s;
+
+            .imgContfunc{
+                height: 70px;
+                width: 70px;
+                margin: 25px;
+            }
+
+            .textos-func{
+                strong{
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 700;
+                    color:#333333;
+                    font-size: 27px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+    
+                p{
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400;
+                    color:#333333;
+                    font-size: 18px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 15px;
+                }
+    
+            }
+        }
+
+        .contComFun:hover{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 3px solid #AAAAAA;
+            border-radius: 10px;
+            width: 300px;
+            height:350px;
+            margin: 10px;
+            transition: all 0.3s;
+            transform: scale(1.05);
+            box-shadow:#333333;
+        }
+
+/* Equipo */
+
+        .contEqipo{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .titEquipo{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #0E3560;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px; 
+        }
+
+        .contContac{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .contPers{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 300px;
+            height:350px;
+            margin: 10px;
+            transition: all 0.3s;
+
+            span{
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                color:#333333;
+                font-size: 27px;
+                text-align: center;
+                margin-bottom: 30px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .img-equipo{
+                height: 200px;
+                width: 200px;
+                margin: 25px;
+            }
+    
+        }
+
+        .contPers:hover{
+transform: scale(1.05);
+        }
+        
+        .infoEquipo{
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            color:#333333;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+/* Footer */
+
+        footer {
+
+            width: 100%;
+            height: 100px;
+            background-color: #0E3560;
+            align-items: center;
+            display: flex;
+        }
+
+        .iconosContacto {
+            align-items: center;
+            display: flex;
+            height: 10px;
+            width: 100%;
+            margin-left: 5%;
+
+            img {
+                height: 40px;
+                width: 40px;
+                margin-right: 12px;
+            }
+            
+        }
+
+        .logo-footer {
+            align-items: center;
+            display: flex;
+            height: 50px;
+            width: auto;
+            padding-right:50px ;
+
+        }
+
+/* Media queries */
+
+
+
+        @media (max-width: 992px){
+
+            .banerPrincipal-2{
+                align-items: center;
+                display: flex;
+                width: 100%;
+                height: 170px;
+                background-image: url(imagenes/Header-2-Mobil.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                }
+            }
+
+        @media (max-width: 576px){
+
+            .banerPrincipal{
+        
+                width: 100%;
+                height: 500px;
+                background-image: url(imagenes/Header-1-Mobil.png);
+                background-size:cover;
+            }
+        
+            .banerPrincipal-2{
+                align-items: center;
+                display: flex;
+                width: 100%;
+                height: 120px;
+                background-image: url(imagenes/Header-2-Mobil.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                }
+        }
