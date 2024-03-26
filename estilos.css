@@ -135,7 +135,7 @@ main {
 .cont-ind .botones-info-index a {
   border-radius: 50px;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #0E3560;
   font-size: 16px;
   text-transform: uppercase;
@@ -165,7 +165,7 @@ main {
 .cont-serv .textos-servicios strong {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #333333;
   font-size: 25px;
 }
 .cont-serv .textos-servicios h3 {
@@ -487,7 +487,7 @@ footer {
   .botones-info-index a {
     border-radius: 50px;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: #0E3560;
     font-size: 15px !important;
     text-transform: uppercase;
