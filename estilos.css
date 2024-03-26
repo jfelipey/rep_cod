@@ -139,11 +139,11 @@ main {
   color: #0E3560;
   font-size: 16px;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 4% 10%;
   text-decoration: none;
   border: 2px solid #0E3560;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 2%;
   transition: all 0.3s;
 }
 .cont-ind .botones-info-index a:hover {
@@ -165,7 +165,7 @@ main {
 .cont-serv .textos-servicios strong {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  color: #333333;
+  color: #ffffff;
   font-size: 25px;
 }
 .cont-serv .textos-servicios h3 {
@@ -479,6 +479,29 @@ footer {
     background-image: url(imagenes/Header-2-Mobil.png);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .botones-info-index {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .botones-info-index a {
+    border-radius: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #0E3560;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    padding: 3% 7% !important;
+    text-decoration: none;
+    border: 2px solid #0E3560;
+    text-align: center;
+    margin-top: 1% !important;
+    transition: all 0.3s;
+  }
+  .botones-info-index a:hover {
+    background-color: #0E3560;
+    border: 2px solid #0E3560;
+    color: #ffffff;
   }
 }
 @media (max-width: 576px) {
